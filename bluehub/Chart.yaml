@@ -1,0 +1,39 @@
+apiVersion: v2
+appVersion: 0.1.0
+dependencies:
+- name: zookeeper
+  repository: ""
+  version: 0.1.0
+- name: kafka
+  repository: ""
+  version: 0.1.0
+- name: securitymgr
+  repository: ""
+  version: 0.1.0
+- name: schemareg
+  repository: ""
+  version: 0.1.0
+- name: clustermgr
+  repository: ""
+  version: 0.1.0
+- name: kproducer
+  repository: ""
+  version: 0.1.0
+description: A Helm chart for Enterprise Messaging Hub
+home: https://thebluespire.com/kafka-distribution
+icon: file://./bluehub.png
+keywords:
+- Confluent Kafka Community Edition
+- Confluent Zookeeper Community Edition
+- Confluent Schema Registry Community Edition
+- Cluster Manager for Apache Kafka (CMAK)
+- Kafka Security Manager
+- Kafka Producer Proxy
+maintainers:
+- email: SB@thebluespire.com
+  name: bluespireinc
+name: bluehub
+sources:
+- https://github.com/bluespireinc/charts/tree/master/bluehub/v0.1.0
+type: application
+version: 0.1.0

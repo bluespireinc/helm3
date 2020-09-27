@@ -1,0 +1,14 @@
+apiVersion: v2
+appVersion: 0.1.0
+description: A Helm chart for Enterprise Messaging Hub - Schema Registry
+home: https://thebluespire.com/kafka-distribution
+keywords:
+- Confluent Schema Registry Community Edition
+maintainers:
+- email: SB@thebluespire.com
+  name: bluespireinc
+name: schemareg
+sources:
+- https://github.com/bluespireinc/charts/tree/master/bluehub/v0.1.0
+type: application
+version: 0.1.0

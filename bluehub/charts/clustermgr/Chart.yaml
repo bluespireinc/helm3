@@ -1,0 +1,14 @@
+apiVersion: v2
+appVersion: 0.1.0
+description: A Helm chart for Enterprise Messaging Hub - Cluster Manager
+home: https://thebluespire.com/kafka-distribution
+keywords:
+- Cluster Manager for Apache Kafka (CMAK)
+maintainers:
+- email: SB@thebluespire.com
+  name: bluespireinc
+name: clustermgr
+sources:
+- https://github.com/bluespireinc/charts/tree/master/bluehub/v0.1.0
+type: application
+version: 0.1.0
