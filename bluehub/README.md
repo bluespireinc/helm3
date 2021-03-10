@@ -40,7 +40,7 @@ Bluespire charts can be used with any Kubernetes distros.
 * Provisioner support for underlying infrastructure (on-prem and cloud)
 
 ### Installing the Chart
-helm repo add bluespireinc https://github.com/bluespireinc/charts
+helm repo add bluespireinc https://github.com/bluespireinc/helm3/bluehub
 helm install release-name bluespireinc/bluehub
 
 See Parameters section below that can be configured during the installation
