@@ -4,7 +4,7 @@ Both Open Source and proprietary Projects, customized to provide easy to use too
 ## TL;DR
 
 ```bash
-$ helm repo add bluespireinc https://github.com/bluespireinc/charts
+$ helm repo add bluespireinc https://github.com/bluespireinc/helm3
 $ helm search repo bluespireinc
 $ helm install my-release bluespireinc/<chart>
 ```
@@ -19,7 +19,7 @@ To install Helm, refer to the [Helm install guide](https://github.com/helm/helm#
 The following command allows you to download and install all the charts from this repository:
 
 ```bash
-$ helm repo add bluespireinc https://github.com/bluespireinc/charts
+$ helm repo add bluespireinc https://github.com/bluespireinc/helm3
 ```
 
 ### License
